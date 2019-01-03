@@ -31,8 +31,6 @@ public class Game {
         } catch (Exception e) {
             System.out.println(e);
         }
-
-
             try {
                 System.out.println("\n\tVill du spela mot \n" +
                         "\n\t[1] datorn" +
@@ -54,8 +52,6 @@ public class Game {
             } catch (Exception e) {
                 System.out.println("Felaktig inmatning, svara med en siffra!");
             }
-
-
 
         if (answerEasyMediumOrDiffcultAi == 1) {
             createFirstPlayer();
